@@ -1,0 +1,13 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: none;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: $white-color;
+  transition: background-color $transition-duration;
+  cursor: pointer;
+}
