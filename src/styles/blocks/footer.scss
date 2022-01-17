@@ -1,7 +1,7 @@
 .footer {
   padding: 42px 0 23px;
 
-  &__content-wrapper {
+  &__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,10 +22,14 @@
     color: #86878b;
   }
 
+  &__messengers-wrapper {
+    width: 322px;
+  }
+
   &__messengers {
     display: flex;
     align-items: center;
-    gap: 42px;
+    justify-content: space-between;
   }
 
   &__messenger {
@@ -40,8 +44,10 @@
   @media (max-width: 991px) {
     padding: 17px 0 37px;
 
-    &__content-wrapper {
+    &__content {
       flex-direction: column;
+      margin: 0 auto;
+      width: max-content;
     }
 
     &__media {
@@ -50,6 +56,20 @@
 
     &__title {
       margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    &__icon {
+      transform: scale(0.8);
+    }
+
+    &__content {
+      width: 100%;
+    }
+
+    &__messengers-wrapper {
+      width: 100%;
     }
   }
 }

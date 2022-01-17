@@ -42,5 +42,9 @@
     &:hover {
       background-color: $decoration-color-hover;
     }
+
+    &:active {
+      background-color: $decoration-color;
+    }
   }
 }
