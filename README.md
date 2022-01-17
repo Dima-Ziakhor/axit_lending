@@ -1,5 +1,5 @@
 # axit_lending
-One-page car sales landing page. You can find demo [here]().
+One-page car sales landing page. You can find demo [here](https://dima-ziakhor.github.io/axit_lending/).
 
 ## Description
 AXIT landing adaptive page created by pure HTML and CSS (SCSS). Flex-boxes are used for alignment and adaptability. Code cleanliness tested by eslint and stylelint. Stack: HTML5, SCSS.
